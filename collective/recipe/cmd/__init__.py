@@ -101,5 +101,5 @@ class Python(Cmd):
             dirname = tempfile.mkdtemp()
             tmpfile = os.path.join(dirname, 'run.py')
             open(tmpfile, 'w').write('\n'.join(lines))
-            execfile(tmpfile)
+            exec(compile(open(tmpfile).read(), tmpfile, 'exec'))
             shutil.rmtree(dirname)
