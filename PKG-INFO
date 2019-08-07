@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: collective.recipe.cmd
-Version: 0.6
+Version: 0.6.altair
 Summary: ZC Buildout recipe to execute a commande line
 Home-page: http://plone.org/products/collective-recipes
 Author: Gael Pasgrimaud
